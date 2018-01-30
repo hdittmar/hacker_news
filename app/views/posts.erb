@@ -1,0 +1,27 @@
+
+<header>
+  <h1>Hacker News</h1>
+</header>
+
+<ol>
+<% @posts.each do |post| %>
+  <li>
+
+<div class="title">
+  <i class="fa fa-caret-up"></i><div class="post-name"><%=post.name%></div>
+      (<a href=<%="/post/#{post.url}"%> target="_blank"><div class="url"><%=post.url%></div></a>)
+</div>
+
+  <div class="subtitle">
+      <%= post.created_at %>
+    </div>
+
+
+
+
+
+
+
+  </li>
+  <% end %>
+</ol>

@@ -1,0 +1,20 @@
+.post-name{
+  display: inline;
+}
+
+.url{
+  display: inline;
+}
+
+.subtitle{
+  font-size: 12px;
+  font-weight: medium;
+}
+
+header {
+  background-color: orange
+}
+
+a{
+  color: gray;
+}
